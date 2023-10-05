@@ -22,16 +22,16 @@ export const GlobalStyle = createGlobalStyle`
     cursor: pointer;
   }
 
-  .titleL{
+  h2{
     color: ${(props) => props.theme.blue[700]};
     font-family: Montserrat;
-    font-size: 38px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
 
-  .titleM{
+  h3{
     color: ${(props) => props.theme.blue[900]};
     font-family: Roboto;
     font-size: 24px;
@@ -40,7 +40,7 @@ export const GlobalStyle = createGlobalStyle`
     line-height: normal;
   }
 
-  .paragrafL{
+  p {
     color: ${(props) => props.theme.blue[900]};
     font-family: Roboto;
     font-size: 24px;
@@ -49,7 +49,7 @@ export const GlobalStyle = createGlobalStyle`
     line-height: normal;
   }
 
-  .paragraf{
+  .paragraph{
     color: ${(props) => props.theme.blue[900]};
     font-family: Roboto;
     font-size: 16px;
@@ -58,7 +58,7 @@ export const GlobalStyle = createGlobalStyle`
     line-height: normal;
   }
 
-  .link{
+  a {
     color: ${(props) => props.theme.blue[500]};
     font-family: Montserrat;
     font-size: 24px;
@@ -68,7 +68,7 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
   }
 
-  .linkWhite{
+  .link{
     color: ${(props) => props.theme.white[50]};
     font-family: Montserrat;
     font-size: 24px;
